@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expedia" parallel="tests">
+<!--
+  <test thread-count="5" name="signin">
+  	<parameter name="url" value="https://www.expedia.com"></parameter>
+  	<parameter name="browser" value="Firefox"></parameter>
+  	<classes>
+  		<class name="testcase.Tc01"/>
+  	</classes>
+  </test>  
+  -->
+  <test thread-count="5" name="selectJFK">
+  	<parameter name="url" value="https://www.expedia.com"></parameter>
+  	<parameter name="browser" value="Chrome"></parameter>
+  	<classes>
+  		<class name="testcase.TC02_jfk"/>
+  	</classes>
+  </test>  
+
+<!--<test thread-count="5" name="signin">
+  	<parameter name="url" value="https://www.expedia.com"></parameter>
+  	<parameter name="browser" value="Chrome"></parameter>
+  	<classes>
+  		<class name="testcase.Tc01"/>
+  	</classes>
+  </test> --> <!-- Test -->
+</suite> <!-- Suite -->
